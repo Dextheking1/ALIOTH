@@ -405,7 +405,6 @@ DWORD CharonMain(ALIOTH_PARAMS* pParams) {
     } else {
         printf("[!] Callback execution failed\n");
     }
-    
     return 0;
 }
 #pragma optimize("", on)
