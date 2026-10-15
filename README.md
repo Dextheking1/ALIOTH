@@ -42,31 +42,7 @@ Every mode shares a common evasion engine indirect syscalls, stack spoofing, gad
 
 At a high level:
 
-```text
-                         ALIOTH
-                           │
-          ┌────────────────┼────────────────┐
-          │                │                │
-       Execution       Credential       Enterprise
-       & Memory         Research        Operations
-          │                │                │
-      ┌───┴───┐        ┌───┴───┐       ┌───┴────┐
-      │ Umbra │        │Wraith │       │ Hermes │
-      │Charon │        │Mortis │       │ Helios │
-      │Revenant        │Shadow │       │  Nyx   │
-      └───────┘        └───────┘       └────────┘
-                           │
-                 ┌─────────┴─────────┐
-                 │                   │
-             Persistence         Collection /
-             & Evasion           Operations
-                 │                   │
-           ┌─────┴─────┐       ┌────┴──────┐
-           │    Eos    │       │ Lachesis  │
-           │  Acheron  │       │           │
-           │ Tartarus  │       └───────────┘
-           └───────────┘
-```
+<img width="1536" height="1024" alt="Alioth Red Team Operations Framework (1)" src="https://github.com/user-attachments/assets/d8643a51-397e-4dc4-9446-d5a729b69b7b" />
 
 ---
 
@@ -76,21 +52,8 @@ ALIOTH is intended for authorized operations against environments such as:
 
 ### Active Directory Environments
 
-```text
-┌─────────────────────────────────────────┐
-│             AD Environment              │
-│                                         │
-│  Domain Controller                      │
-│       │                                 │
-│       ├── Workstations                  │
-│       ├── Servers                       │
-│       ├── File Servers                  │
-│       ├── SQL / Application Servers     │
-│       ├── Admin Workstations            │
-│       └── Security Infrastructure       │
-│                                         │
-└─────────────────────────────────────────┘
-```
+<img width="1536" height="1024" alt="Active Directory Infrastructure Network Diagram" src="https://github.com/user-attachments/assets/d4a41a4f-f534-4bac-a236-088bb4952cbd" />
+
 
 Typical red-team objectives may include evaluating:
 
